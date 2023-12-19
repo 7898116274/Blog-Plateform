@@ -1,0 +1,11 @@
+body{
+    background: fixed;
+    background-color: #f2f9f1;
+    margin-left: 20px;    
+    margin-right: 20px;   
+
+}
+
+[data-theme="dark"] body{
+    background-color: black
+}

@@ -1,0 +1,190 @@
+/* blog css */
+
+.blogContainer {
+  margin: 20px;
+}
+
+.blogHeader {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1f1e1e;
+}
+
+
+.card{
+  background-color:#d2d4d2
+}
+
+
+
+.blogTitle {
+  font-family: 'nzt-48', sans-serif;
+  font-weight: 500;
+}
+
+.blogContent {
+  margin-top: 10px;
+}
+
+.author {
+  font-style: italic;
+  color: #e0dfdf;
+}
+
+.description {
+  line-height: 1.4;
+}
+
+.readMore {
+  margin-top: 10px;
+}
+
+.cardBackground {
+  background-color: #1f354e;
+}
+
+
+/* Header */
+
+#Navbar{
+
+    border-radius:20px;
+    border: 1px solid #000000;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+
+  .error-container {
+    text-align: center;
+  }
+  
+  .error-heading {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    font-size: 1.5em;
+  }
+
+.form-error{
+  color: red;
+}
+
+.blog-box {
+  border: 1px solid #ad9e9e;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.divider-line {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+#author {
+  font-size: 20px;
+
+}
+
+.content {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
+/* dark theme */
+
+/* Dark mode styles */
+
+[data-theme="dark"] .card {
+  background-color: #575559;
+}
+
+[data-theme="dark"] .blogHeader {
+  border-bottom: 1px solid #fdfbfe;
+}
+
+[data-theme="dark"] .blogTitle {
+  color: #fdfbfe;
+}
+
+[data-theme="dark"] .author {
+  color: #ddd;
+}
+
+[data-theme="dark"] .description {
+  color: #ddd;
+}
+
+[data-theme="dark"] .readMore {
+  color: #fdfbfe;
+}
+
+[data-theme="dark"] #Navbar {
+  background-color: #333;
+  border-color: #333;
+  color: #fdfbfe;
+}
+
+[data-theme="dark"] .error-container {
+  background-color: #333;
+}
+
+[data-theme="dark"] .error-heading,
+[data-theme="dark"] .error-message {
+  color: #fdfbfe;
+}
+
+[data-theme="dark"] .form-error {
+  color: #ff6666;
+}
+
+[data-theme="dark"] .blog-box {
+  border-color: #e1d9d9;
+  background-color: #464a4f;
+  color: #ddd;
+}
+
+[data-theme="dark"] .divider-line {
+  border-top: 1px solid #666;
+}
+
+[data-theme="dark"] .title {
+  color: #ddd;
+}
+
+[data-theme="dark"] #author {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .content {
+  color: #ddd;
+}
+
+[data-theme="dark"] .Container {
+  color: #ddd;
+  background: #4a2272;
+}
+
+[data-theme="dark"] .form {
+  color: #ddd;
+  background: #2f3c4f;
+  background-color: #f9f9f9;
+}
