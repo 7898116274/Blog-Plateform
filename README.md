@@ -55,19 +55,18 @@ You may also see any lint errors in the console.
 
  # Project Structure
  
-   `pages/`: Next.js pages for different views.
+ `pages/`: Next.js pages for different views.
     -`index.js`: Landing Page.
     -`form.js`: Post Creation Page.
     -`readblogs/[id].js`: Post Detail Page.
     `components/`: Reusable components.
        - `header.js`: Navigation Header.
-        -`schema/`: Form validation schema.
-           - `index.js`: Yup validation schema.
-    `store/`: Redux store setup.
-      -  `blogSlice.js`: Redux slice for managing blog state.
-      -  `formSlice.js`: Redux slice for managing form state.
-    
-    `styles/`: Global and Home styles.
+ `store/`: Redux store setup.
+    -  `blogSlice.js`: Redux slice for managing blog state.
+    -  `formSlice.js`: Redux slice for managing form state.
+ `schema/`: Form validation schema.
+     - `index.js`: Yup validation schema.
+ `styles/`: Global and Home styles.
     
     
 #  Dependencies
