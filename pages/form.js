@@ -1,11 +1,11 @@
-import Header from './component/header';
+import Header from './components/header';
 import Head from 'next/head';
 import { Form, Container, Button } from 'react-bootstrap';
 import { useFormik } from "formik";
-import { contentSchema } from "./component/schema";
+import {contentSchema} from "../schema/yupSchema";
 import styles from "../styles/Home.module.css"
 import { useDispatch } from 'react-redux';
-import { blogDetails } from "./store/formSlice";
+import { blogDetails } from "../store/formSlice";
 
 // Metadata for the page
 export const metadata = {

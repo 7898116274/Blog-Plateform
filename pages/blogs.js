@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import Header from './component/header';
+import Header from './components/header';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchBlogs, STATUSES } from './store/blogSlice';
+import { fetchBlogs, STATUSES } from '../store/blogSlice';
 import { Card, CardContent, CardActions, Typography, Button } from '@mui/material';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';

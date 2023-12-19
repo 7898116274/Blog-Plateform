@@ -1,6 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
 import blogsSlice from './blogSlice';
-import formReducer from './formSlice';
 
 // Create a Redux store with combined reducers
 const store = configureStore({

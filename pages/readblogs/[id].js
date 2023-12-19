@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { useSelector } from 'react-redux';
-import { STATUSES } from '../store/blogSlice';
+import { STATUSES } from '../../store/blogSlice';
 import { Container, Row, Col } from 'react-bootstrap';
 import style from '../../styles/Home.module.css';
-import Header from '../component/header';
+import Header from '../components/header';
 import Head from 'next/head';
 
 function ReadBlogs() {

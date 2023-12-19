@@ -6,7 +6,7 @@ import "../styles/globals.css";
 
 // Import necessary dependencies
 import { Provider } from 'react-redux';
-import store from "./store/store";
+import store from "../store/store";
 import { ThemeProvider } from 'next-themes';
 
 // Main App component
